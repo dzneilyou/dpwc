@@ -19,7 +19,7 @@ public abstract class BasicEntity implements Serializable {
     private Date createTime; // 创建时间
 
     @Column(name = "CREATE_USER", nullable = false)
-    private String createUser; // 创建人
+    private String createUser; // 创建人111
 
     @Column(name = "UPDATE_TIME", nullable = false)
     private Date updateTime; // 更新时间
